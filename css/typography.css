@@ -1,0 +1,198 @@
+/* typography.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    padding-left: 55px;
+}
+
+.date-box {
+    font-weight: bold;
+    font-size: 17px;
+    text-align: left;
+    color: #fff;
+}
+
+.post_head {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 4px;
+}
+
+.post_meta {
+    font-size: 11px;
+    color: #666;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.post_body {
+    font-size: 13px;
+    line-height: 1.5;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.post_comments {
+    font-weight: bold;
+    text-align: right;
+}
+
+.post_comments a {
+    color: #21759b;
+}
+
+.rss-comment-row {
+    padding: 0 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.rss-link {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.rss-link a {
+    color: #666;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.block h3 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    padding: 8px 12px;
+    margin: 0 0 8px;
+}
+
+.block ul {
+    list-style: none;
+    padding: 0 12px;
+    margin: 0;
+}
+
+.block ul li {
+    padding: 4px 0 4px 20px;
+    font-size: 13px;
+}
+
+.block ul li a {
+    color: #21759b;
+    text-decoration: none;
+}
+
+.footer {
+    font-size: 11px;
+    color: #fff;
+}
+
+.footer-right span {
+    font-size: 13px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+.footer-right a {
+    text-decoration: none;
+    color: #555;
+}
+
+/* Вторая страница - о университете */
+.pagecontent {
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.pagetitle {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 30px 4px;
+    border-bottom: 3px solid #0096FF;
+    color: #f3faff;
+    margin-top: -10px;
+}
+
+.pagesubtitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 10px;
+    color: #005a9c;
+}
+
+.pagecontent p {
+    margin-bottom: 14px;
+    text-align: justify;
+    font-size: 24px;
+}
+
+.pagelist {
+    font-size: 25px;
+    padding-left: 50px;
+}
+
+.pagehighlight {
+    background: #f0f8ff;
+    border-left: 4px solid #0096FF;
+    padding: 10px 14px;
+    margin: 15px 0;
+    border-radius: 6px;
+}
+
+/* Третья страница - личный кабинет */
+.account-tabs label {
+    font-weight: bold;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+
+/* Активная вкладка */
+#tab-login:checked ~ .account-tabs label[for="tab-login"],
+#tab-reg:checked ~ .account-tabs label[for="tab-reg"] {
+    border-bottom: 3px solid #2a5bd7;
+    color: #2a5bd7;
+}
+
+.account-form input,
+.account-form select {
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.account-submit {
+    margin-top: 10px;
+    padding: 10px;
+    background: #2a5bd7;
+    color: white;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+}
+
+.account-submit:hover {
+    background: #1f4ab5;
+}
+

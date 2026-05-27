@@ -1,0 +1,32 @@
+/* menus.css */
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 4px 10px;
+    display: inline-block;
+    font-weight: bold;
+    background: url("../images/bckmenuli.png") no-repeat left center;
+}
+
+.menu a:first-child {
+    background-image: none;
+    padding-left: 5px;
+}
+
+.menu a:hover span {
+    background-color: #0096FF;
+    display: inline-block;
+}
+
+/* Ссылки внутри второй страницы */
+.pagecontent a {
+    color: #0066cc;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px dashed #0066cc;
+}
+
+.pagecontent a:hover {
+    color: #0096FF;
+    border-bottom-color: transparent;
+}
