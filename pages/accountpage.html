@@ -1,0 +1,78 @@
+<!DOCTYPE html> 
+<html lang="ru"> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <title>Личный кабинет</title>         
+        <link rel="stylesheet" href="../css/typography.css"> 
+        <link rel="stylesheet" href="../css/structure.css"> 
+        <link rel="stylesheet" href="../css/menus.css"> 
+        <link rel="stylesheet" href="../css/images.css"> 
+    </head>     
+    <body> 
+        <div class="wrapper"> 
+            <div class="top-bar"> 
+                <div class="logo">university.ru</div>                 
+            </div>             
+            <div class="menu"> 
+                <a href="../index.html">ГЛАВНАЯ</a> 
+                <a href="aboutpage.html">О УНИВЕРСИТЕТЕ</a> 
+                <a href="accountpage.html" class="active">ЛИЧНЫЙ КАБИНЕТ</a> 
+            </div>             
+            <div class="account-container"> 
+                <!-- Переключатели -->                 
+                <input type="radio" id="tab-login" name="tabs" checked> 
+                <input type="radio" id="tab-reg" name="tabs"> 
+                <div class="account-tabs"> 
+                    <label for="tab-login">Вход</label>                     
+                    <label for="tab-reg">Регистрация</label>                     
+                </div>                 
+                <!-- Форма входа -->                 
+                <form class="account-form account-login"> 
+                    <label>Логин:</label>                     
+                    <input type="text" required> 
+                    <label>Пароль:</label>                     
+                    <input type="password" required> 
+                    <a href="../index.html" class="account-submit">Войти</a> 
+                </form>                 
+                <!-- Форма регистрации -->                 
+                <form class="account-form account-register"> 
+                    <label>ФИО:</label>                     
+                    <input type="text" required> 
+                    <label>Факультет:</label>                     
+                    <select required> 
+                        <option>Горный факультет (ГФ)</option>                         
+                        <option>Инженерно-экономический факультет (ИЭФ)</option>                         
+                        <option>Факультет интегрированных и мехатронных производств (ФИМП)</option>                         
+                        <option>Факультет интеллектуальных систем и программирования (ФИСП)</option>                         
+                        <option>Факультет информационных систем и технологий (ФИСТ)</option>                         
+                        <option>Факультет компьютерных информационных технологий и автоматики (ФКИТА)</option>                         
+                        <option>Факультет металлургии и теплоэнергетики (ФМТ)</option>                         
+                        <option>Факультет недропользования и наук о Земле (ФННЗ)</option>                         
+                        <option>Факультет интеллектуальной электроэнергетики и робототехники (ФИЭР)</option>                         
+                    </select>                     
+                    <label>Группа:</label>                     
+                    <input type="text" required> 
+                    <label>Email:</label>                     
+                    <input type="email" required> 
+                    <label>Телефон:</label>                     
+                    <input type="tel" required> 
+                    <label>Пароль:</label>                     
+                    <input type="password" required> 
+                    <label>Повторите пароль:</label>                     
+                    <input type="password" required> 
+                    <a href="../index.html" class="account-submit">Зарегистрироваться</a> 
+                </form>                 
+            </div>             
+            <!-- Футер -->             
+            <div class="footer"> 
+                <div class="footer-left">© 2026 university.ru</div>                 
+                <div class="footer-right"> 
+                    <span class="footer-rss"></span> 
+                    <span><a href="#">НОВОСТИ</a></span> 
+                    <span class="footer-rss"></span> 
+                    <span><a href="#">ОБЪЯВЛЕНИЯ</a></span> 
+                </div>                 
+            </div>             
+        </div>         
+    </body>     
+</html>
